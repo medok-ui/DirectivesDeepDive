@@ -1,27 +1,66 @@
-# DirectivesDeepDive
+# Angular Directives Deep Dive
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.0.
+## About
 
-## Development server
+This is an Angular application built as part of the Angular course by **Maximilian Schwarzmüller** on Udemy.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+The project demonstrates advanced directive concepts including custom structural directives, attribute directives, and permission-based authentication.
 
-## Code scaffolding
+## Features
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Custom Authentication System** - Role-based access control (admin, user, guest)
+- **Structural Directives** - Custom directives using TemplateRef and ViewContainerRef
+- **Attribute Directives** - Custom directives with host listeners
+- **Host Directives** - Directive composition and reusability
+- **Permission-based Rendering** - Conditional content display based on user roles
 
-## Build
+## Technologies
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Angular 18+ (Standalone Components)
+- TypeScript
+- Angular Signals
+- Template-driven Forms
+- Custom Directives
+- Dependency Injection
 
-## Running unit tests
+## Key Concepts
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+This project covers:
+- Creating custom structural directives
+- Using TemplateRef and ViewContainerRef
+- Implementing attribute directives with host bindings
+- Host directives for directive composition
+- Permission-based content rendering
+- Angular services with dependency injection
+- Signal-based state management
+- Authentication flow implementation
 
-## Running end-to-end tests
+## Authentication
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+The application includes three permission levels:
+- **Admin** - Full access (admin@example.com / admin)
+- **User** - Regular user access (user@example.com / user)
+- **Guest** - Limited access (default)
 
-## Further help
+## Course Author
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+**Maximilian Schwarzmüller**  
+Udemy Instructor
+
+## Getting Started
+
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+2. Run development server:
+   ```bash
+   ng serve
+   ```
+
+3. Navigate to `http://localhost:4200/`
+
+## License
+
+This project is part of educational coursework.
