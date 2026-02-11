@@ -2,7 +2,7 @@
 
 ## About
 
-This is an Angular application built as part of the Angular course by **Maximilian Schwarzmüller** on Udemy.
+This is an Angular application built as part of the Angular course by **[Maximilian Schwarzmüller](https://www.udemy.com/user/maximilian-schwarzmuller/)** on Udemy.
 
 The project demonstrates advanced directive concepts including custom structural directives, attribute directives, and permission-based authentication.
 
